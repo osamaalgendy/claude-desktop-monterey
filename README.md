@@ -56,8 +56,8 @@ Auto-update is disabled on purpose. To update: download the latest `.dmg` in you
 ## Known limitations
 
 - Only tested on one machine: MacBook Pro mid-2015 (Intel), macOS 12.7.6, Claude 2.31226.1, Electron 43.7.10. Reports from other setups are welcome via issues.
-- The **Claude Code** tab may not work. In testing its bundle download failed a checksum check.
-- Features that need macOS 13+ APIs may be missing or degraded. Chat, sign-in and model selection work.
+- The **Claude Code** tab works in testing. Its bundle download failed a checksum check once at first launch, then succeeded on a later attempt; if it fails for you, quit and relaunch.
+- Features that need macOS 13+ APIs may be missing or degraded. Chat, sign-in, model selection and the Claude Code tab work.
 - Electron 43 will eventually stop receiving security fixes. Treat this as a bridge until you can upgrade macOS.
 
 ## Troubleshooting
